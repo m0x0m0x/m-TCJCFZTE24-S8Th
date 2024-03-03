@@ -2,4 +2,4 @@
 
 <img src="./a2.gif" width="300%">
 
-> S8Th
+> S8Th.
