@@ -49,10 +49,14 @@ main {
 }
 
 h1 {
-  font-family: "Bungee Spice";
+  /* font-family: "Bungee Spice"; */
+  background-image: url("https://i.giphy.com/QmQMiJnYR41AwSY3WQ.webp");
   font-weight: bold;
   font-size: 3.5rem;
   background-color: #020617;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 h2 {
