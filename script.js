@@ -76,3 +76,14 @@ console.log(
 );
 
 console.log(this);
+
+// Using this method in side a function
+
+const lin = {
+  year: 1991,
+  calcAge: function () {
+    console.log(this);
+    console.log(1969 - this.year);
+  },
+};
+lin.calcAge();
